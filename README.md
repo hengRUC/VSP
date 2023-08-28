@@ -10,6 +10,6 @@ Video as Stochastic Processes (VSP), a novel process-based contrastive learning 
 conda create -y --name vsp python=3.7.9
 conda activate vsp
 # Pytorch and Auxiliary installation tools
-conda install -y pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch
+conda install -y pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 -c pytorch
 conda install -y conda-build ipython pandas scipy pip av -c conda-forge
 ```
