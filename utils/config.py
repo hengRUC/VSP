@@ -63,7 +63,7 @@ CONFIG.TRAIN = edict()
 # Number of training epoch.
 CONFIG.TRAIN.MAX_EPOCHS = 100
 # Number of samples in each batch.
-CONFIG.TRAIN.BATCH_SIZE = 2
+CONFIG.TRAIN.BATCH_SIZE = 128
 # Number of frames to use while training.
 CONFIG.TRAIN.NUM_FRAMES = 12
 
